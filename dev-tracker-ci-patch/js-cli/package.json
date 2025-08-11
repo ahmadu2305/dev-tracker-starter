@@ -1,0 +1,12 @@
+{
+  "name": "js-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "js-cli": "src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "lint": "echo \"no lint configured\""
+  }
+}
