@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Week 1 Goals",
+    "body": "## Week 1 (Aug 11 \u2013 Aug 17) Goals\n- [ ] Complete Day-1 precheck\n- [ ] Setup mono-repo `dev-tracker`\n- [ ] Scaffold JS CLI + tests + CI\n- [ ] Scaffold Go CLI + tests + CI\n- [ ] Add `status` API feature to both CLIs\n- [ ] Publish v0.1.0-alpha pre-releases\n- [ ] Share project update with #builtwithgithubcopilot\n- [ ] Prepare questions for workshop\n- [ ] Week 1 retrospective\n",
+    "labels": [
+      "week1",
+      "planning"
+    ]
+  },
+  {
+    "title": "JS CLI Scaffold",
+    "body": "## Objective\nScaffold a JS CLI using Commander or Yargs with:\n- Commands: `hello`, `--version`, `--name`, `--json`\n- Tests with Vitest/Jest\n- ESLint + Prettier configured\n\n## Tasks\n- [ ] Initialize project structure in `/js-cli`\n- [ ] Add commands and flags\n- [ ] Setup tests\n- [ ] Configure linting and formatting\n- [ ] Add GitHub Actions CI workflow (lint, test, build)\n\n**Use GitHub Copilot** to generate:\n- CLI help text\n- 5 unit tests",
+    "labels": [
+      "javascript",
+      "cli",
+      "copilot"
+    ]
+  },
+  {
+    "title": "Go CLI Scaffold",
+    "body": "## Objective\nScaffold a Go CLI using Cobra with:\n- Commands: `hello`, `--name`, `--format=json|text`\n- Table-driven tests\n- golangci-lint configured\n\n## Tasks\n- [ ] Initialize project structure in `/go-cli`\n- [ ] Add commands and flags\n- [ ] Setup tests\n- [ ] Configure linting\n- [ ] Add GitHub Actions CI workflow (lint, test)\n\n**Use GitHub Copilot** to generate:\n- Cobra command template\n- Tests",
+    "labels": [
+      "go",
+      "cli",
+      "copilot"
+    ]
+  },
+  {
+    "title": "Add `status` API Feature",
+    "body": "## Objective\nAdd a `status` command to both JS and Go CLIs that calls GitHub's rate-limit API endpoint.\n\n## Tasks\n- [ ] JS: Implement with fetch/axios + retry\n- [ ] Go: Implement with net/http + backoff\n- [ ] Parse JSON and display in text or JSON format\n- [ ] Add 2\u20133 integration tests per CLI\n\n**Use GitHub Copilot** to:\n- Suggest retry/backoff logic\n- Draft JSON parsing code",
+    "labels": [
+      "feature",
+      "api",
+      "copilot"
+    ]
+  },
+  {
+    "title": "v0.1.0-alpha Pre-Release",
+    "body": "## Objective\nPrepare first pre-release for both CLIs.\n\n## Tasks\n- [ ] Update README with usage examples\n- [ ] Add CHANGELOG.md\n- [ ] Create GitHub pre-release for JS CLI\n- [ ] Create GitHub pre-release for Go CLI\n\n**Use GitHub Copilot** to draft release notes and usage examples.",
+    "labels": [
+      "release"
+    ]
+  },
+  {
+    "title": "Week 1 Update Post",
+    "body": "## Objective\nShare a short update for visibility.\n\n## Tasks\n- [ ] Prepare screenshots of CLI usage\n- [ ] Write a 2\u20133 sentence LinkedIn/Twitter update\n- [ ] Use #builtwithgithubcopilot hashtag\n- [ ] Post update\n\n**Use GitHub Copilot** to polish the wording.",
+    "labels": [
+      "communication",
+      "social"
+    ]
+  },
+  {
+    "title": "Week 1 Retrospective",
+    "body": "## Objective\nDocument wins, blockers, and next steps.\n\n## Tasks\n- [ ] Create `/docs/retro/week1.md`\n- [ ] Note achievements, challenges, and lessons learned\n- [ ] Open Week 2 issues based on retro\n",
+    "labels": [
+      "retro",
+      "planning"
+    ]
+  }
+]

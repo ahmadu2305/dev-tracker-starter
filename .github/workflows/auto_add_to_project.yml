@@ -1,0 +1,37 @@
+name: Auto-add Issues to Project
+on:
+  issues:
+    types: [opened, reopened, labeled]
+
+permissions:
+  issues: write
+  contents: read
+  pull-requests: write
+
+jobs:
+  add:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to project
+        uses: actions/github-script@v7
+        env:
+          PROJECT_ID: ${{ secrets.PROJECT_ID }}
+          TOKEN: ${{ secrets.GH_PAT_PROJECT || secrets.GITHUB_TOKEN }}
+        with:
+          github-token: ${{ env.TOKEN }}
+          script: |
+            const projectId = process.env.PROJECT_ID
+            if (!projectId) {
+              core.setFailed("PROJECT_ID secret is missing. Run project_setup.sh and save the ID as PROJECT_ID.")
+            }
+            const issueId = context.payload.issue.node_id
+            // Add item to Project
+            await github.graphql(`
+              mutation($projectId:ID!, $contentId:ID!) {
+                addProjectV2ItemById(input: {projectId: $projectId, contentId: $contentId}) {
+                  item { id }
+                }
+              }`,
+              { projectId, contentId: issueId }
+            )
+            core.info("Issue added to project")

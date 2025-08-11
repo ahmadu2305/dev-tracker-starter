@@ -1,0 +1,25 @@
+Week #,Start,End,Theme,JS Focus,Go Focus,Copilot Use,Deliverable,Metric
+1,2025-08-11,2025-08-17,Andela×GitHub: Onboarding & Tooling,JS env setup + Copilot prompts 101,Go toolchain + Copilot prompts 101,Enable Copilot across VS Code; capture 5 useful prompts,Create 'tracker' repo; README + goals,Repo created
+2,2025-08-18,2025-08-24,Learning Phase Wk1,JS: Node/NPM hygiene; ESLint/Prettier,"Go: modules, lint, tests",Use Copilot to scaffold unit tests,Green CI on sample JS & Go projects,CI passing
+3,2025-08-25,2025-08-31,Learning Phase Wk2,JS: CLI with Commander/Yargs,Go: Cobra CLI flags & config,Copilot for arg parsing & help text,CLI skeletons for JS & Go,2 CLIs scaffolded
+4,2025-09-01,2025-09-07,Learning Phase Wk3,JS: API client (fetch/axios),Go: HTTP client + JSON,Copilot to draft API calls,Working API calls + retries,API tests
+5,2025-09-08,2025-09-14,Learning Phase Wk4,JS: GitHub Actions for JS,Go: GitHub Actions for Go,Copilot to write workflow YAML,Actions: lint/test/build badges,Badges visible
+6,2025-09-15,2025-09-21,Certification Phase Wk1,JS: packaging (npm publish --dry-run),Go: release v0.1.0,Copilot to draft release notes,Tag & release both CLIs,v0.1.0 tags
+7,2025-09-22,2025-09-28,Certification Phase Wk2,JS: small feature via PR,Go: small feature via PR,Copilot to suggest tests,Merged PRs to each CLI,2 PRs merged
+8,2025-09-29,2025-10-05,Certification Phase Wk3 (Prep),JS: mocks & integration tests,Go: table-driven tests,Copilot to generate test cases,80% test pass target,>10 test cases
+9,2025-10-06,2025-10-12,Certification Phase Wk4 (Exam),JS: polish docs,Go: polish docs,Copilot to improve README examples,Take exam + publish badge,Exam complete
+10,2025-10-13,2025-10-19,Open Source Focus,JS: contribute 1 issue/PR,Go: contribute to mesheryctl or small lib,Copilot to propose fixes,1 external PR merged,PR merged
+11,2025-10-20,2025-10-26,Observability,JS: add logging (pino/winston),Go: structured logging (zap/logrus),Copilot log formats,Release v0.2.0 with logs,v0.2.0
+12,2025-10-27,2025-11-02,Packaging & Distribution,"JS: package bin, npm beta",Go: cross-compile binaries,Copilot release workflow,Multi-OS artifacts,Artifacts attached
+13,2025-11-03,2025-11-09,Kubernetes Week,JS: k8s client or manifest gen,Go: k8s YAML/gen + validation,Copilot YAML snippets,Deploy sample app via ArgoCD,App deployed
+14,2025-11-10,2025-11-16,Cost & Metrics,JS: small OpenCost dashboard,Go: OpenCost data fetch,Copilot to write queries,Cost report demo,Report generated
+15,2025-11-17,2025-11-23,Docs & Blogs,JS: Docusaurus page,Go: Godoc + examples,Copilot to draft docs,Publish 1 blog post,Post live
+16,2025-11-24,2025-11-30,Security,JS: npm audit fixes,Go: govulncheck,Copilot to propose patches,Security badges clean,0 high vulns
+17,2025-12-01,2025-12-07,Performance,JS: perf micro-bench,Go: bench tests,Copilot to craft benches,Benchmark report,README chart
+18,2025-12-08,2025-12-14,Community,JS: good-first-issue triage,Go: review/mentorship PR,Copilot to write review comments,2 reviews submitted,Reviews done
+19,2025-12-15,2025-12-21,Productize,JS: add telemetry opt-in,Go: config & templates,Copilot to draft consent text,v0.3.0 product polish,v0.3.0
+20,2025-12-22,2025-12-28,Integration,JS↔Go: shared JSON schema,Go: validate schema,Copilot to generate types,Interop demo,Demo recorded
+21,2025-12-29,2026-01-04,Polish,JS: CLI UX niceties,Go: better error messages,Copilot UX suggestions,UX checklist closed,Checklist green
+22,2026-01-05,2026-01-11,Showcase,JS: #builtwithgithubcopilot post,Go: dev.to/GitHub post,Copilot post drafts,2 public posts,Posts live
+23,2026-01-12,2026-01-18,Apply & Pitch,JS: prepare project pitch,Go: prepare lightning talk,Copilot speaker notes,Submit to meetup,CFP submitted
+24,2026-01-19,2026-01-25,Wrap & Plan Next,JS: backlog triage,Go: roadmap v0.4.0,Copilot to seed roadmap,Retrospective report,Report shared
