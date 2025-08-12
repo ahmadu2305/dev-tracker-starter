@@ -38,3 +38,8 @@ and GitHub Actions to auto-add issues to a Projects (beta) board.
 - Implement `status` API command in both
 - Tag `v0.1.0-alpha` releases
 - Share your #builtwithgithubcopilot update
+
+
+## 📊 My 6-Month Learning Progress
+Check my daily learning tracker here:  
+[📄 View 6-Month Tracker](./6_month_tracker_with_toc_checkboxes.md)
